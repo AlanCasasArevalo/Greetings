@@ -14,6 +14,8 @@
 		C00ECF702B7357E7007073AE /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */; };
 		C00ECF722B7358A8007073AE /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF712B7358A8007073AE /* VerticalTitleView.swift */; };
 		C00ECF742B739B37007073AE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF732B739B37007073AE /* MainView.swift */; };
+		C00ECF762B73A206007073AE /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF752B73A206007073AE /* LanguageOptionsView.swift */; };
+		C00ECF782B73A25E007073AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF772B73A25E007073AE /* Constants.swift */; };
 		C0C5C5FD2B725FF5003E3570 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */; };
 		C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */; };
 		C0C5C6052B725FF7003E3570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5C6042B725FF7003E3570 /* Preview Assets.xcassets */; };
@@ -34,6 +36,10 @@
 		C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
 		C00ECF712B7358A8007073AE /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		C00ECF732B739B37007073AE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C00ECF752B73A206007073AE /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		C00ECF772B73A25E007073AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C00ECF792B73A479007073AE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C00ECF7A2B73A480007073AE /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C0C5C5F92B725FF5003E3570 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,7 @@
 			children = (
 				C0C5C60B2B726716003E3570 /* TextView.swift */,
 				C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */,
+				C00ECF752B73A206007073AE /* LanguageOptionsView.swift */,
 				C00ECF6D2B735513007073AE /* GreetingsTextView.swift */,
 				C00ECF6B2B735419007073AE /* LandscapeGreetingsView.swift */,
 				C0C5C6152B72821F003E3570 /* BackgroundView.swift */,
@@ -104,6 +111,7 @@
 				C00ECF692B73530B007073AE /* Model */,
 				C00ECF6A2B73531E007073AE /* Views */,
 				C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */,
+				C00ECF772B73A25E007073AE /* Constants.swift */,
 				C00ECF732B739B37007073AE /* MainView.swift */,
 				C00ECF672B734D97007073AE /* Localizable.strings */,
 				C00ECF612B734B0A007073AE /* Assets.xcassets */,
@@ -165,6 +173,8 @@
 				en,
 				Base,
 				es,
+				ar,
+				he,
 			);
 			mainGroup = C0C5C5F02B725FF5003E3570;
 			productRefGroup = C0C5C5FA2B725FF5003E3570 /* Products */;
@@ -204,7 +214,9 @@
 				C0C5C6162B72821F003E3570 /* BackgroundView.swift in Sources */,
 				C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */,
 				C00ECF6C2B735419007073AE /* LandscapeGreetingsView.swift in Sources */,
+				C00ECF762B73A206007073AE /* LanguageOptionsView.swift in Sources */,
 				C0C5C5FD2B725FF5003E3570 /* GreetingsApp.swift in Sources */,
+				C00ECF782B73A25E007073AE /* Constants.swift in Sources */,
 				C00ECF722B7358A8007073AE /* VerticalTitleView.swift in Sources */,
 				C0C5C6102B7278FF003E3570 /* TitleView.swift in Sources */,
 			);
@@ -218,6 +230,8 @@
 			children = (
 				C00ECF662B734D97007073AE /* en */,
 				C00ECF682B734EB4007073AE /* es */,
+				C00ECF792B73A479007073AE /* ar */,
+				C00ECF7A2B73A480007073AE /* he */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -6,6 +6,9 @@ struct MainView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
     
+    @Binding var language: String
+    @Binding var layoutDirectionString: String
+    
     var isPortraitPhone: Bool {
         horizontalSizeClass == .compact && verticalSizeClass == .regular
     }
@@ -17,14 +20,37 @@ struct MainView: View {
     var body: some View {
         if isPortraitPhone || isIPad {
             // Portrait mode ?
-            GreetingsView()
+            NavigationStack {
+                GreetingsView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(
+                                language: $language,
+                                layoutDirectionString: $layoutDirectionString
+                            )
+                        }
+                    }
+            }
         } else {
             // Landscape mode ?
-            LandscapeGreetingsView()
+            NavigationStack {
+                LandscapeGreetingsView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(
+                                language: $language,
+                                layoutDirectionString: $layoutDirectionString
+                            )
+                        }
+                    }
+            }
         }
     }
 }
 
 #Preview {
-    MainView()
+    MainView(
+        language: .constant("es"), 
+        layoutDirectionString: .constant(LEFT_TO_RIGHT)
+    )
 }
