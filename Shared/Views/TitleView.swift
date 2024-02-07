@@ -12,7 +12,7 @@ struct TitleView: View {
     var body: some View {
         HStack{
             GreetingsTextView(subtitle: $subtitle)
-                .popoverTip(greetingsTip)
+//                .popoverTip(greetingsTip)
             Spacer()
             RotatableCircleView()
         }

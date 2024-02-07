@@ -1,8 +1,7 @@
 import SwiftUI
-//import TipKit
 
 @main
-struct GreetingsApp: App {
+struct Greetings_MacApp: App {
     @AppStorage("language") var language: String = "en"
     @AppStorage("layoutDirectionString") var layoutDirectionString: String = LEFT_TO_RIGHT
     
@@ -23,6 +22,7 @@ struct GreetingsApp: App {
             .environment(\.locale, Locale(identifier: language))
             .environment(\.layoutDirection, layoutDirection)
             .task {
+                // Tips solo funciona en mac 14 o superior
 //                if resetTip {
 //                    // Resetea el counter de los tips y los vuelve a mostrar
 //                    try? Tips.resetDatastore()

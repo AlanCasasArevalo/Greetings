@@ -18,6 +18,27 @@
 		C00ECF782B73A25E007073AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF772B73A25E007073AE /* Constants.swift */; };
 		C00ECF7D2B73ADC5007073AE /* GreetingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */; };
 		C00ED3DC2B73D57E007073AE /* LanguageOptionsTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */; };
+		C00ED3E42B73D7BD007073AE /* Greetings_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED3E32B73D7BC007073AE /* Greetings_MacApp.swift */; };
+		C00ED3E62B73D7BD007073AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED3E52B73D7BD007073AE /* ContentView.swift */; };
+		C00ED3E82B73D7BE007073AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00ED3E72B73D7BE007073AE /* Assets.xcassets */; };
+		C00ED3EB2B73D7BE007073AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00ED3EA2B73D7BE007073AE /* Preview Assets.xcassets */; };
+		C00ED3F02B73D89F007073AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00ECF612B734B0A007073AE /* Assets.xcassets */; };
+		C00ED3F12B73D8A4007073AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF772B73A25E007073AE /* Constants.swift */; };
+		C00ED3F22B73D8E6007073AE /* LanguageOptionsTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */; };
+		C00ED3F32B73D8EA007073AE /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */; };
+		C00ED3F42B73D8ED007073AE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C60B2B726716003E3570 /* TextView.swift */; };
+		C00ED3F52B73D8F1007073AE /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */; };
+		C00ED3F62B73D8F4007073AE /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF752B73A206007073AE /* LanguageOptionsView.swift */; };
+		C00ED3F72B73D8F6007073AE /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF6D2B735513007073AE /* GreetingsTextView.swift */; };
+		C00ED3F82B73D8F9007073AE /* LandscapeGreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF6B2B735419007073AE /* LandscapeGreetingsView.swift */; };
+		C00ED3F92B73D8FD007073AE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C6152B72821F003E3570 /* BackgroundView.swift */; };
+		C00ED3FA2B73D901007073AE /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C6112B727942003E3570 /* MessagesView.swift */; };
+		C00ED3FC2B73D907007073AE /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF712B7358A8007073AE /* VerticalTitleView.swift */; };
+		C00ED3FE2B73D91D007073AE /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C60D2B726A73003E3570 /* DataItemModel.swift */; };
+		C00ED3FF2B73D921007073AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C00ECF672B734D97007073AE /* Localizable.strings */; };
+		C00ED4012B73D9CB007073AE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED4002B73D9CB007073AE /* MainView.swift */; };
+		C00ED4022B73DAF6007073AE /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C60F2B7278FF003E3570 /* TitleView.swift */; };
+		C00ED4032B73DCBA007073AE /* GreetingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */; };
 		C0C5C5FD2B725FF5003E3570 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */; };
 		C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */; };
 		C0C5C6052B725FF7003E3570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5C6042B725FF7003E3570 /* Preview Assets.xcassets */; };
@@ -44,6 +65,12 @@
 		C00ECF7A2B73A480007073AE /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GreetingTip.swift; path = ../../../../../../Desktop/GreetingTip.swift; sourceTree = "<group>"; };
 		C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsTapView.swift; sourceTree = "<group>"; };
+		C00ED3E12B73D7BC007073AE /* Greetings_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00ED3E32B73D7BC007073AE /* Greetings_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greetings_MacApp.swift; sourceTree = "<group>"; };
+		C00ED3E52B73D7BD007073AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C00ED3E72B73D7BE007073AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00ED3EA2B73D7BE007073AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C00ED4002B73D9CB007073AE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C0C5C5F92B725FF5003E3570 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
@@ -58,6 +85,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C00ED3DE2B73D7BC007073AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0C5C5F62B725FF5003E3570 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,7 +113,6 @@
 		C00ECF6A2B73531E007073AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C00ECF732B739B37007073AE /* MainView.swift */,
 				C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */,
 				C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */,
 				C0C5C60B2B726716003E3570 /* TextView.swift */,
@@ -103,10 +136,45 @@
 			path = Tips;
 			sourceTree = "<group>";
 		};
+		C00ED3E22B73D7BC007073AE /* Greetings_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C00ED3E32B73D7BC007073AE /* Greetings_MacApp.swift */,
+				C00ED4002B73D9CB007073AE /* MainView.swift */,
+				C00ED3E52B73D7BD007073AE /* ContentView.swift */,
+				C00ED3E72B73D7BE007073AE /* Assets.xcassets */,
+				C00ED3E92B73D7BE007073AE /* Preview Content */,
+			);
+			path = Greetings_Mac;
+			sourceTree = "<group>";
+		};
+		C00ED3E92B73D7BE007073AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C00ED3EA2B73D7BE007073AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C00ED3EF2B73D7DE007073AE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C00ECF612B734B0A007073AE /* Assets.xcassets */,
+				C00ECF772B73A25E007073AE /* Constants.swift */,
+				C00ECF6A2B73531E007073AE /* Views */,
+				C00ECF7B2B73ADB2007073AE /* Tips */,
+				C00ECF692B73530B007073AE /* Model */,
+				C00ECF672B734D97007073AE /* Localizable.strings */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C0C5C5F02B725FF5003E3570 = {
 			isa = PBXGroup;
 			children = (
+				C00ED3EF2B73D7DE007073AE /* Shared */,
 				C0C5C5FB2B725FF5003E3570 /* Greetings */,
+				C00ED3E22B73D7BC007073AE /* Greetings_Mac */,
 				C0C5C5FA2B725FF5003E3570 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				C0C5C5F92B725FF5003E3570 /* Greetings.app */,
+				C00ED3E12B73D7BC007073AE /* Greetings_Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,13 +191,8 @@
 		C0C5C5FB2B725FF5003E3570 /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
-				C00ECF7B2B73ADB2007073AE /* Tips */,
-				C00ECF692B73530B007073AE /* Model */,
-				C00ECF6A2B73531E007073AE /* Views */,
 				C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */,
-				C00ECF772B73A25E007073AE /* Constants.swift */,
-				C00ECF672B734D97007073AE /* Localizable.strings */,
-				C00ECF612B734B0A007073AE /* Assets.xcassets */,
+				C00ECF732B739B37007073AE /* MainView.swift */,
 				C0D56D5A2B73473A00070F6D /* Launch Screen.storyboard */,
 				C0C5C6022B725FF7003E3570 /* Greetings.entitlements */,
 				C0C5C6032B725FF7003E3570 /* Preview Content */,
@@ -147,6 +211,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C00ED3E02B73D7BC007073AE /* Greetings_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00ED3EC2B73D7BE007073AE /* Build configuration list for PBXNativeTarget "Greetings_Mac" */;
+			buildPhases = (
+				C00ED3DD2B73D7BC007073AE /* Sources */,
+				C00ED3DE2B73D7BC007073AE /* Frameworks */,
+				C00ED3DF2B73D7BC007073AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greetings_Mac;
+			productName = Greetings_Mac;
+			productReference = C00ED3E12B73D7BC007073AE /* Greetings_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C0C5C5F82B725FF5003E3570 /* Greetings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0C5C6082B725FF7003E3570 /* Build configuration list for PBXNativeTarget "Greetings" */;
@@ -174,6 +255,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					C00ED3E02B73D7BC007073AE = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					C0C5C5F82B725FF5003E3570 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -196,11 +280,23 @@
 			projectRoot = "";
 			targets = (
 				C0C5C5F82B725FF5003E3570 /* Greetings */,
+				C00ED3E02B73D7BC007073AE /* Greetings_Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C00ED3DF2B73D7BC007073AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00ED3EB2B73D7BE007073AE /* Preview Assets.xcassets in Resources */,
+				C00ED3FF2B73D921007073AE /* Localizable.strings in Resources */,
+				C00ED3F02B73D89F007073AE /* Assets.xcassets in Resources */,
+				C00ED3E82B73D7BE007073AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0C5C5F72B725FF5003E3570 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +311,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C00ED3DD2B73D7BC007073AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00ED3E62B73D7BD007073AE /* ContentView.swift in Sources */,
+				C00ED3E42B73D7BD007073AE /* Greetings_MacApp.swift in Sources */,
+				C00ED3F92B73D8FD007073AE /* BackgroundView.swift in Sources */,
+				C00ED3F72B73D8F6007073AE /* GreetingsTextView.swift in Sources */,
+				C00ED3F12B73D8A4007073AE /* Constants.swift in Sources */,
+				C00ED3F42B73D8ED007073AE /* TextView.swift in Sources */,
+				C00ED3F32B73D8EA007073AE /* RotatableCircleView.swift in Sources */,
+				C00ED4022B73DAF6007073AE /* TitleView.swift in Sources */,
+				C00ED3FE2B73D91D007073AE /* DataItemModel.swift in Sources */,
+				C00ED4032B73DCBA007073AE /* GreetingTip.swift in Sources */,
+				C00ED3F22B73D8E6007073AE /* LanguageOptionsTapView.swift in Sources */,
+				C00ED3FA2B73D901007073AE /* MessagesView.swift in Sources */,
+				C00ED4012B73D9CB007073AE /* MainView.swift in Sources */,
+				C00ED3F52B73D8F1007073AE /* GreetingsView.swift in Sources */,
+				C00ED3F62B73D8F4007073AE /* LanguageOptionsView.swift in Sources */,
+				C00ED3F82B73D8F9007073AE /* LandscapeGreetingsView.swift in Sources */,
+				C00ED3FC2B73D907007073AE /* VerticalTitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0C5C5F52B725FF5003E3570 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +375,79 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C00ED3ED2B73D7BE007073AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings_Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alancasasarevalo-gmail.com.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C00ED3EE2B73D7BE007073AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings_Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alancasasarevalo-gmail.com.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		C0C5C6062B725FF7003E3570 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,10 +568,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Greetings/Greetings.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
-				DEVELOPMENT_TEAM = 5J2G4846S8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -400,8 +593,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alancasasarevalo-gmail.com.Greetings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,10 +609,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Greetings/Greetings.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Greetings/Preview Content\"";
-				DEVELOPMENT_TEAM = 5J2G4846S8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -439,8 +634,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alancasasarevalo-gmail.com.Greetings";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +647,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C00ED3EC2B73D7BE007073AE /* Build configuration list for PBXNativeTarget "Greetings_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00ED3ED2B73D7BE007073AE /* Debug */,
+				C00ED3EE2B73D7BE007073AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0C5C5F42B725FF5003E3570 /* Build configuration list for PBXProject "Greetings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
