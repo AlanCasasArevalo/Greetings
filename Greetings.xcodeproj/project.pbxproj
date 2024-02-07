@@ -17,6 +17,7 @@
 		C00ECF762B73A206007073AE /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF752B73A206007073AE /* LanguageOptionsView.swift */; };
 		C00ECF782B73A25E007073AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF772B73A25E007073AE /* Constants.swift */; };
 		C00ECF7D2B73ADC5007073AE /* GreetingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */; };
+		C00ED3DC2B73D57E007073AE /* LanguageOptionsTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */; };
 		C0C5C5FD2B725FF5003E3570 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */; };
 		C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */; };
 		C0C5C6052B725FF7003E3570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5C6042B725FF7003E3570 /* Preview Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		C00ECF792B73A479007073AE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C00ECF7A2B73A480007073AE /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GreetingTip.swift; path = ../../../../../../Desktop/GreetingTip.swift; sourceTree = "<group>"; };
+		C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsTapView.swift; sourceTree = "<group>"; };
 		C0C5C5F92B725FF5003E3570 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,9 @@
 		C00ECF6A2B73531E007073AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C00ECF732B739B37007073AE /* MainView.swift */,
+				C00ED3DB2B73D57E007073AE /* LanguageOptionsTapView.swift */,
+				C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */,
 				C0C5C60B2B726716003E3570 /* TextView.swift */,
 				C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */,
 				C00ECF752B73A206007073AE /* LanguageOptionsView.swift */,
@@ -101,7 +106,6 @@
 		C0C5C5F02B725FF5003E3570 = {
 			isa = PBXGroup;
 			children = (
-				C00ECF6F2B7357E7007073AE /* RotatableCircleView.swift */,
 				C0C5C5FB2B725FF5003E3570 /* Greetings */,
 				C0C5C5FA2B725FF5003E3570 /* Products */,
 			);
@@ -123,7 +127,6 @@
 				C00ECF6A2B73531E007073AE /* Views */,
 				C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */,
 				C00ECF772B73A25E007073AE /* Constants.swift */,
-				C00ECF732B739B37007073AE /* MainView.swift */,
 				C00ECF672B734D97007073AE /* Localizable.strings */,
 				C00ECF612B734B0A007073AE /* Assets.xcassets */,
 				C0D56D5A2B73473A00070F6D /* Launch Screen.storyboard */,
@@ -223,6 +226,7 @@
 				C00ECF6E2B735513007073AE /* GreetingsTextView.swift in Sources */,
 				C00ECF702B7357E7007073AE /* RotatableCircleView.swift in Sources */,
 				C0C5C6122B727942003E3570 /* MessagesView.swift in Sources */,
+				C00ED3DC2B73D57E007073AE /* LanguageOptionsTapView.swift in Sources */,
 				C0C5C6162B72821F003E3570 /* BackgroundView.swift in Sources */,
 				C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */,
 				C00ECF6C2B735419007073AE /* LandscapeGreetingsView.swift in Sources */,
