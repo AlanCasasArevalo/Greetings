@@ -16,6 +16,7 @@
 		C00ECF742B739B37007073AE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF732B739B37007073AE /* MainView.swift */; };
 		C00ECF762B73A206007073AE /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF752B73A206007073AE /* LanguageOptionsView.swift */; };
 		C00ECF782B73A25E007073AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF772B73A25E007073AE /* Constants.swift */; };
+		C00ECF7D2B73ADC5007073AE /* GreetingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */; };
 		C0C5C5FD2B725FF5003E3570 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */; };
 		C0C5C5FF2B725FF5003E3570 /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */; };
 		C0C5C6052B725FF7003E3570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5C6042B725FF7003E3570 /* Preview Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		C00ECF772B73A25E007073AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C00ECF792B73A479007073AE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C00ECF7A2B73A480007073AE /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GreetingTip.swift; path = ../../../../../../Desktop/GreetingTip.swift; sourceTree = "<group>"; };
 		C0C5C5F92B725FF5003E3570 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		C0C5C5FE2B725FF5003E3570 /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		C00ECF7B2B73ADB2007073AE /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				C00ECF7C2B73ADC5007073AE /* GreetingTip.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
 		C0C5C5F02B725FF5003E3570 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		C0C5C5FB2B725FF5003E3570 /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				C00ECF7B2B73ADB2007073AE /* Tips */,
 				C00ECF692B73530B007073AE /* Model */,
 				C00ECF6A2B73531E007073AE /* Views */,
 				C0C5C5FC2B725FF5003E3570 /* GreetingsApp.swift */,
@@ -207,6 +218,7 @@
 			files = (
 				C0C5C60E2B726A73003E3570 /* DataItemModel.swift in Sources */,
 				C00ECF742B739B37007073AE /* MainView.swift in Sources */,
+				C00ECF7D2B73ADC5007073AE /* GreetingTip.swift in Sources */,
 				C0C5C60C2B726716003E3570 /* TextView.swift in Sources */,
 				C00ECF6E2B735513007073AE /* GreetingsTextView.swift in Sources */,
 				C00ECF702B7357E7007073AE /* RotatableCircleView.swift in Sources */,
